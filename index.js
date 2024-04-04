@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // 🚨 Get input values
       const studentNameInput = document.getElementById('studentName');
-      const personalMessageInput = document.getElementById('personalMesssage');
+      const personalMessageInput = document.getElementById('personalMessage');
       const courseNameInput = document.getElementById('courseName'); 
   
       const studentName = studentNameInput.value;
@@ -30,10 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>This is to certify that</p>
       <h3>${studentName}</h3>
       <p>has almost completed the</p>
-      <p>${personalMessage}😻</p>
+      <h3>${courseName} Course</h3>
       <p>with legendary perseverence and world-class bad-assery for never giving up🏆</p>
-      <img src="logo.png" heigh="90px" width="300px" alt="CodeSpace logo">
-      <p>Course: ${courseName}</p>
+      <img src="logo.png" height="90px" width="300px" alt="CodeSpace logo">
+      <p>${personalMessage}😻</p>
+      
     `;
     
       //  Display the modal
